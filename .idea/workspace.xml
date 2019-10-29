@@ -22,6 +22,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -225,12 +228,12 @@
       <option name="presentableId" value="Default" />
       <updated>1572196600904</updated>
       <workItem from="1572196614000" duration="3523000" />
-      <workItem from="1572326669023" duration="20001000" />
+      <workItem from="1572326669023" duration="20408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23524000" />
+    <option name="totallyTimeSpent" value="23931000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
