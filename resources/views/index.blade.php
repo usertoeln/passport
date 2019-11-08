@@ -11,6 +11,7 @@
 <body>
     <div id="app">
         <panel></panel>
+        {{--<sidebar></sidebar>--}}
     </div>
 </body>
 <script src="{{ asset('./js/app.js') }}"></script>

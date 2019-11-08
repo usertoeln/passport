@@ -5,8 +5,7 @@
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav>
-                    <b-nav-item href="#">Link</b-nav-item>
-                    <b-nav-item href="#" disabled>Disabled</b-nav-item>
+                    <b-nav-item :to="{name :  'modal'}">Modal</b-nav-item>
                 </b-navbar-nav>
                 <b-navbar-nav>
                     <b-nav-item-dropdown text="Apps" right>
@@ -14,6 +13,8 @@
                         <b-dropdown-item to="/contact">Contact</b-dropdown-item>
                         <b-dropdown-item to="/about">About</b-dropdown-item>
                         <b-dropdown-item to="/modal">Modal test</b-dropdown-item>
+                        <b-dropdown-item to="/route_param/alireza">Route Parameters</b-dropdown-item>
+                        <b-dropdown-item to="/fontawesome">Font Awesome</b-dropdown-item>
                     </b-nav-item-dropdown>
                     <b-nav-item-dropdown right>
                         <!-- Using 'button-content' slot -->
@@ -26,6 +27,7 @@
                 </b-navbar-nav>
             </b-collapse>
         </b-navbar>
+        <div class="w-100"></div>
     </div>
 </template>
 <script>

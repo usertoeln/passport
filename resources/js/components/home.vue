@@ -1,13 +1,14 @@
 <template>
     <div>
-        <h1 class="text-center">
-            This is Home page
-        </h1>
+        <h4 class="text-center">
+            This is Home page and test for fontawesome
+        </h4>
     </div>
 </template>
 <script>
+
     export default {
-        name: "home"
+        name: "home",
     }
 </script>
 <style scoped></style>
