@@ -8,7 +8,7 @@
                               :relative=false
                               :collapsed="true"/>
             </div>
-            <div class="col-auto p-5">
+            <div class="col-12 p-5">
                 <router-view></router-view>
             </div>
         </div>
@@ -30,17 +30,33 @@
                     {
                         href: '/',
                         title: 'Home',
-                        icon: 'fas fa-user'
+                        icon: 'fas fa-list'
                     },
                     {
                         href: '/about',
                         title: 'About',
-                        icon: 'fas fa-user'
+                        icon: 'fa fa-trash'
                     },
                     {
-                        href: '/modal',
-                        title: 'Modal',
-                        icon: 'fa fa-user'
+                        href: '/contact',
+                        title: 'Contact',
+                        icon: 'fa fa-mobile'
+                    },
+                    {
+                        title: 'Applications',
+                        icon: 'fab fa-app-store',
+                        child: [
+                            {
+                                href: '/modal',
+                                title: 'Modal',
+                                icon: 'fa fa-list'
+                            },
+                            {
+                                href: '/route_param/alireza',
+                                title: 'Route Params',
+                                icon: 'fa fa-magic'
+                            },
+                        ]
                     }
                 ],
             }

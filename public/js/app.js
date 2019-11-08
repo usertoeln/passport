@@ -13972,104 +13972,12 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "contact"
-});
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=script&lang=js&":
-/*!**********************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/fontawesome.vue?vue&type=script&lang=js& ***!
-  \**********************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "./node_modules/@fortawesome/free-solid-svg-icons/index.es.js");
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ __webpack_exports__["default"] = ({
-  name: "fontawesome",
-  computed: {
-    queen: function queen() {
-      return _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_0__["faChessQueen"];
-    }
-  }
 });
 
 /***/ }),
@@ -14319,6 +14227,9 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
 //
 //
 //
@@ -42628,25 +42539,6 @@ exports.push([module.i, "/*!\n * Bootstrap v4.3.1 (https://getbootstrap.com/)\n 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&":
-/*!*****************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& ***!
-  \*****************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
-// imports
-
-
-// module
-exports.push([module.i, "\n.rtl[data-v-a62f938e] {direction : rtl;}\n.ltr[data-v-a62f938e] {direction : ltr;}\nli[data-v-a62f938e]{\n    margin-bottom: 20px;\n    list-style: none;\n}\n", ""]);
-
-// exports
-
-
-/***/ }),
-
 /***/ "./node_modules/css-loader/lib/css-base.js":
 /*!*************************************************!*\
   !*** ./node_modules/css-loader/lib/css-base.js ***!
@@ -46385,36 +46277,6 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
-/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&":
-/*!*********************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& ***!
-  \*********************************************************************************************************************************************************************************************************************************************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-
-var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&");
-
-if(typeof content === 'string') content = [[module.i, content, '']];
-
-var transform;
-var insertInto;
-
-
-
-var options = {"hmr":true}
-
-options.transform = transform
-options.insertInto = undefined;
-
-var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
-
-if(content.locals) module.exports = content.locals;
-
-if(false) {}
-
-/***/ }),
-
 /***/ "./node_modules/style-loader/lib/addStyles.js":
 /*!****************************************************!*\
   !*** ./node_modules/style-loader/lib/addStyles.js ***!
@@ -47072,231 +46934,13 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("h1", { staticClass: "text-center" }, [
-        _vm._v("\n        This is Contact Us page\n    ")
-      ])
-    ])
-  }
-]
-render._withStripped = true
-
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true&":
-/*!**************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true& ***!
-  \**************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "rtl text-right" }, [
-    _c("p", [
-      _vm._v(
-        "این صفحه در رابطه با استفاده از فونت های Fontawesome می باشد .برای استفاده از این امکان باید در مرحله اول\n        کتابخانه های مورد نیاز را نصب کنید : "
-      )
-    ]),
-    _vm._v(" "),
-    _vm._m(0),
-    _vm._v(" "),
-    _c("p", [
-      _vm._v("در مرحله بعد در فایل اصلی برنامه باید موارد زیر را اضافه کنیم :")
-    ]),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c("p", [
-      _vm._v("و برای استفاده از امکانات باید دستورات زیر را اضافه کنیم :")
-    ]),
-    _vm._v(" "),
-    _vm._m(2),
-    _vm._v(" "),
-    _c("div", { staticClass: "text-center" }, [
-      _c("ul", [
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: "coffee", size: "1x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("font-awesome-icon", {
-              attrs: { icon: "coffee", size: "1x", flip: "horizontal" }
-            })
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: "child", size: "4x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("font-awesome-icon", {
-              attrs: {
-                icon: "child",
-                transform: "shrink-4 down-2 right-2",
-                mask: ["fas", "circle"],
-                size: "4x"
-              }
-            })
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: "angry", size: "1x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: "circle", size: "1x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: "archive", size: "1x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("font-awesome-icon", {
-              attrs: { icon: ["fab", "twitter"], size: "1x" }
-            })
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c("font-awesome-icon", {
-              attrs: { icon: ["far", "comment"], size: "1x" }
-            })
-          ],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [_c("font-awesome-icon", { attrs: { icon: _vm.queen, size: "4x" } })],
-          1
-        ),
-        _vm._v(" "),
-        _c(
-          "li",
-          [
-            _c(
-              "font-awesome-layers",
-              { staticClass: "fa-4x", attrs: { "full-width": "" } },
-              [
-                _c("font-awesome-icon", {
-                  attrs: { icon: ["fas", "archive"] }
-                }),
-                _vm._v(" "),
-                _c("font-awesome-layers-text", {
-                  staticClass: "text-danger",
-                  attrs: { transform: "down-3 shrink-14", value: "SECRET" }
-                })
-              ],
-              1
-            )
-          ],
-          1
-        )
-      ])
-    ])
-  ])
-}
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "ltr text-left" }, [
-      _c("li", [_vm._v(" npm i --save @fortawesome/fontawesome-svg-core")]),
-      _vm._v(" "),
-      _c("li", [_vm._v(" npm i --save @fortawesome/free-solid-svg-icons")]),
-      _vm._v(" "),
-      _c("li", [_vm._v(" npm i --save @fortawesome/vue-fontawesome")]),
-      _vm._v(" "),
-      _c("li", [_vm._v(" npm i --save @fortawesome/free-brands-svg-icons")]),
-      _vm._v(" "),
-      _c("li", [_vm._v(" npm i --save @fortawesome/free-regular-svg-icons")])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "ltr text-left" }, [
-      _c("li", [
-        _vm._v("import {library} from '@fortawesome/fontawesome-svg-core'")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          " import {faArchive, faChild, faCircle, faCoffee, faUserSecret ,faAngry} from\n            '@fortawesome/free-solid-svg-icons'\n        "
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v("import {faComment} from '@fortawesome/free-regular-svg-icons'")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v("import {faTwitter} from '@fortawesome/free-brands-svg-icons'")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "import { FontAwesomeIcon, FontAwesomeLayers, FontAwesomeLayersText } from\n            '@fortawesome/vue-fontawesome'\n        "
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ul", { staticClass: "ltr text-left" }, [
-      _c("li", [
-        _vm._v(
-          "library.add(faUserSecret, faCoffee, faChild, faCircle, faArchive,faTwitter,faComment,faAngry);"
-        )
-      ]),
-      _vm._v(" "),
-      _c("li", [_vm._v("Vue.component('font-awesome-icon', FontAwesomeIcon)")]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v("Vue.component('font-awesome-layers', FontAwesomeLayers)")
-      ]),
-      _vm._v(" "),
-      _c("li", [
-        _vm._v(
-          "Vue.component('font-awesome-layers-text', FontAwesomeLayersText)"
-        )
+    return _c("div", { staticClass: "container" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-12" }, [
+          _c("h1", { staticClass: "text-center" }, [
+            _vm._v("\n                This is Contact Us page\n            ")
+          ])
+        ])
       ])
     ])
   }
@@ -47746,7 +47390,13 @@ var render = function() {
     _vm._v(" "),
     _c("p", [_vm._v("Below parameter sent by route")]),
     _vm._v(" "),
-    _c("p", [_vm._v(" " + _vm._s(_vm.$route.params.id))])
+    _c("p", [_vm._v(" " + _vm._s(_vm.$route.params.id))]),
+    _vm._v(" "),
+    _c("i", { staticClass: "fa fa-list" }),
+    _vm._v(" "),
+    _c("i", { staticClass: "fa fa-font" }),
+    _vm._v(" "),
+    _c("i", { staticClass: "fa fa-magic" })
   ])
 }
 var staticRenderFns = []
@@ -62967,93 +62617,6 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/fontawesome.vue":
-/*!*************************************************!*\
-  !*** ./resources/js/components/fontawesome.vue ***!
-  \*************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./fontawesome.vue?vue&type=template&id=a62f938e&scoped=true& */ "./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true&");
-/* harmony import */ var _fontawesome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./fontawesome.vue?vue&type=script&lang=js& */ "./resources/js/components/fontawesome.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& */ "./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
-  _fontawesome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "a62f938e",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/fontawesome.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/fontawesome.vue?vue&type=script&lang=js&":
-/*!**************************************************************************!*\
-  !*** ./resources/js/components/fontawesome.vue?vue&type=script&lang=js& ***!
-  \**************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./fontawesome.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&":
-/*!**********************************************************************************************************!*\
-  !*** ./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& ***!
-  \**********************************************************************************************************/
-/*! no static exports found */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=style&index=0&id=a62f938e&scoped=true&lang=css&");
-/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
- /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_style_index_0_id_a62f938e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true&":
-/*!********************************************************************************************!*\
-  !*** ./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true& ***!
-  \********************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./fontawesome.vue?vue&type=template&id=a62f938e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/fontawesome.vue?vue&type=template&id=a62f938e&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_fontawesome_vue_vue_type_template_id_a62f938e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
 /***/ "./resources/js/components/home.vue":
 /*!******************************************!*\
   !*** ./resources/js/components/home.vue ***!
@@ -63482,12 +63045,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_contact__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/contact */ "./resources/js/components/contact.vue");
 /* harmony import */ var _components_modal__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/modal */ "./resources/js/components/modal.vue");
 /* harmony import */ var _components_route_param__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../components/route_param */ "./resources/js/components/route_param.vue");
-/* harmony import */ var _components_fontawesome__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../components/fontawesome */ "./resources/js/components/fontawesome.vue");
 
 
 
 
-
+ // import fontawesome from '../components/fontawesome';
 
 var routes = [{
   path: '/',
@@ -63505,11 +63067,8 @@ var routes = [{
   path: '/modal',
   name: 'modal',
   component: _components_modal__WEBPACK_IMPORTED_MODULE_3__["default"]
-}, {
-  path: '/fontawesome',
-  name: 'fontawesome',
-  component: _components_fontawesome__WEBPACK_IMPORTED_MODULE_5__["default"]
-}, {
+}, // {path: '/fontawesome', name: 'fontawesome', component: fontawesome},
+{
   path: '/route_param/:id',
   name: 'route_param',
   component: _components_route_param__WEBPACK_IMPORTED_MODULE_4__["default"]
