@@ -63488,38 +63488,31 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
- // import sidebar from '../components/sidebar';
 
 var routes = [{
   path: '/',
   name: 'home',
-  component: _components_home__WEBPACK_IMPORTED_MODULE_0__["default"],
-  display: 'Home'
+  component: _components_home__WEBPACK_IMPORTED_MODULE_0__["default"]
 }, {
   path: '/about',
   name: 'about',
-  component: _components_about__WEBPACK_IMPORTED_MODULE_1__["default"],
-  display: 'About'
+  component: _components_about__WEBPACK_IMPORTED_MODULE_1__["default"]
 }, {
   path: '/contact',
   name: 'contact',
-  component: _components_contact__WEBPACK_IMPORTED_MODULE_2__["default"],
-  display: 'Contact'
+  component: _components_contact__WEBPACK_IMPORTED_MODULE_2__["default"]
 }, {
   path: '/modal',
   name: 'modal',
-  component: _components_modal__WEBPACK_IMPORTED_MODULE_3__["default"],
-  display: 'Modal Sample'
+  component: _components_modal__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   path: '/fontawesome',
   name: 'fontawesome',
   component: _components_fontawesome__WEBPACK_IMPORTED_MODULE_5__["default"]
-}, // {path: '/sidebar', name: 'sidebar', component: 'sidebar'},
-{
+}, {
   path: '/route_param/:id',
   name: 'route_param',
-  component: _components_route_param__WEBPACK_IMPORTED_MODULE_4__["default"],
-  display: 'Route Parameter'
+  component: _components_route_param__WEBPACK_IMPORTED_MODULE_4__["default"]
 }];
 /* harmony default export */ __webpack_exports__["default"] = (routes);
 

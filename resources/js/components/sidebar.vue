@@ -1,7 +1,17 @@
 <template>
-    <div>
-        <font-awesome-icon icon="user-secret" />
-        <sidebar-menu :menu="menu"/>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-auto">
+                <sidebar-menu :menu="menu"
+                              :showOneChild="true"
+                              :rtl=false
+                              :relative=false
+                              :collapsed="true"/>
+            </div>
+            <div class="col-auto p-5">
+                <router-view></router-view>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -20,13 +30,19 @@
                     {
                         href: '/',
                         title: 'Home',
+                        icon: 'fas fa-user'
                     },
                     {
                         href: '/about',
                         title: 'About',
-                        icon: 'user-secret',
+                        icon: 'fas fa-user'
+                    },
+                    {
+                        href: '/modal',
+                        title: 'Modal',
+                        icon: 'fa fa-user'
                     }
-                ]
+                ],
             }
         }
     }
